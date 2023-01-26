@@ -1,0 +1,18 @@
+{
+    "hh3k": [
+
+    ],
+    "hh4k": [
+        {
+            "version": "R1.7.8.1",
+            "date": "2023-01-25 10:00:00",
+            "changes": [
+                "Fixed: IPTV long disconnects (Unable to ping wireless STBs)",
+                "Fixed: Disabled Primary Wi-Fi network will be automatically re-enabled after modem reboot"
+            ]
+        }
+    ],
+    "gh": [
+
+    ]
+}
