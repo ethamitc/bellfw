@@ -17,8 +17,8 @@
 
 <svelte:head>
     <title>{ver.version} - Bell {modem}</title>
-    <meta content="Bell {modem} Firmware {ver.version}" property="og:title" />
-    <meta content="Firmware {ver.version} for Bell's {modem}. Deployed on {parseDate(ver.date)}" property="og:description" />
+    <meta content="Bell {modem} - Firmware {ver.version}" property="og:title" />
+    <meta content="Deployed on {parseDate(ver.date)}" property="og:description" />
     <meta content="https://bell.ethxn.tech/v/{`${modem}-${ver.version}`}" property="og:url" />
     <meta content="https://bell.ethxn.tech/{slug}.png" property="og:image" />
     <meta content="#0464a4" name="theme-color" />
@@ -27,7 +27,8 @@
 <main class="container">
     <Navbar />
 
-        <h1>{modem} - Firmware {ver.version}</h1>
+    <img src="/{slug}.png" alt="" width=128 />
+    <h1>{modem} - Firmware {ver.version}</h1>
     
     <p>Deployment date: {parseDate(ver.date)}</p>
     <ul>

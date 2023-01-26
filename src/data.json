@@ -10,9 +10,47 @@
                 "Fixed: IPTV long disconnects (Unable to ping wireless STBs)",
                 "Fixed: Disabled Primary Wi-Fi network will be automatically re-enabled after modem reboot"
             ]
+        },
+        {
+            "version": "R1.6.4",
+            "date": "2021-07-15 10:00:00",
+            "changes": [
+                "Fixed: Voicemail indicator occasionally not showing voicemail",
+                "Fixed: Wireless STB's not showing PVR Recordings",
+                "Fixed: STB's stuck on the FibeTV splash screen unable to lease an IP address",
+                "Fixed: Various STB Pixellation (Uh-Oh 101 Blue Screen) issues",
+                "Fixed: Spontaneous Reboots, Improved stability",
+                "Fixed: GUI improper detection of LAN devices",
+                "Updated: Wi-Fi Chipset Driver"
+            ]
         }
     ],
     "gh": [
 
+    ],
+    "7802": [
+        {
+            "version": "10.04.02.03.172",
+            "date": "2023-01-26 10:00:00",
+            "changes": [
+                "Improvement: Internet disconnects",
+                "Improvement: Video quality and stability",
+                "Fixed: Crashing when signing into Google Play Store",
+                "Fixed: No Signal (Black Screen) after exiting sleep mode",
+                "Fixed: No audio after reboot"
+            ]
+        }
+    ],
+    "2202": [
+
+    ],
+    "2262": [
+
+    ],
+    "2502": [
+
+    ],
+    "5662": [
+        
     ]
 }

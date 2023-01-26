@@ -7,7 +7,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"publish": "CLOUDFLARE_ACCOUNT_ID=a0672ba0db78e3603445a52029bb78ed npx wrangler pages publish .svelte-kit/cloudflare"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",

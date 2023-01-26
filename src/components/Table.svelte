@@ -20,6 +20,7 @@
     </thead>
     <tbody>
         {#each data as version}
+        <tr>
         <td>{parseDate(version.date)}</td>
         <td>
             <a href="/v/{`${slug}-${version.version}`}">
@@ -33,6 +34,7 @@
                 {/each}
             </ul>
         </td>
+        </tr>
         {/each}
     </tbody>
 </table>
